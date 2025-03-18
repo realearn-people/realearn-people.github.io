@@ -3,6 +3,12 @@ layout: default
 title: Home
 ---
 
+// similar behavior as an HTTP redirect
+window.location.replace("https://sites.google.com/view/teeradaj");
+
+// similar behavior as clicking on a link
+window.location.href = "https://sites.google.com/view/teeradaj";
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
